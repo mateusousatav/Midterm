@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.logoImg {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}

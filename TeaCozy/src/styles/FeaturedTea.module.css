@@ -1,0 +1,26 @@
+.hero2 {
+    width: 1000px;
+    margin: 100px auto;
+    margin-bottom: 100px;
+}
+
+.text {
+    text-align: center;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-divs {
+    text-align: center;
+}
+
+.pics {
+    height: 200px;
+    width: 300px;
+}
+
+/* do media query */
