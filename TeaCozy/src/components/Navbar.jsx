@@ -6,11 +6,11 @@ function Navbar() {
 
     return(
         <nav>
-            <img className={styles.logoImg} src={logo} alt="TeaCozy" />
+            <Link to='/'><img className={styles.logoImg} src={logo} alt="TeaCozy" /></Link>
             <ul className={styles.navLinks}>
-                <Link to='/our-mission'>Our Mission</Link>
-                <Link to='/featured-tea'>Featured Tea</Link>
-                <Link to='/locations'>Locations</Link>
+                <Link className={styles.linkText} to='/our-mission'>Our Mission</Link>
+                <Link className={styles.linkText} to='/featured-tea'>Featured Tea</Link>
+                <Link className={styles.linkText} to='/locations'>Locations</Link>
             </ul>
         </nav>
     );

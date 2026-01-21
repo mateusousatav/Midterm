@@ -5,13 +5,13 @@ function Locations() {
 
     return(
         <div className={styles.hero3}>
-            <img className={styles.img3} src={locationsBackground} alt="Locations Background" />
+            <img className={styles.backgroundImg2} src={locationsBackground} alt="Locations Background" />
             <div className={styles.overlay}>
                 <div className={styles.loc}>
                     <h2>Locations</h2>
                 </div>
                 <div className={styles.threeBoxes}>
-                    <div className={styles.box}>
+                    <div className={styles.box1}>
                         <ul>
                             <li>Downtown</li>
                             <li>384 West 4th St</li>
@@ -19,7 +19,7 @@ function Locations() {
                             <li>Portland, Maine</li>
                         </ul>
                     </div>
-                    <div className={styles.box}>
+                    <div className={styles.box2}>
                         <ul>
                             <li>East Bayside</li>
                             <li>3433 Phisherman's Ave</li>
@@ -27,7 +27,7 @@ function Locations() {
                             <li>Portland, Maine</li>
                         </ul>
                     </div>
-                    <div className={styles.box}>
+                    <div className={styles.box3}>
                         <ul>
                             <li>Oakdale</li>
                             <li>515 Crescent Ave</li>

@@ -14,7 +14,7 @@
     flex-wrap: wrap;
 }
 
-.img-divs {
+.imgDivs {
     text-align: center;
 }
 
@@ -23,4 +23,17 @@
     width: 300px;
 }
 
-/* do media query */
+@media screen and (max-width: 1020px) {
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero2 {
+        width: auto;
+        margin: 100px auto;
+        margin-bottom: 100px;
+    }
+}

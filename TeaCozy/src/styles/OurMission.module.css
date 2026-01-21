@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.backgroundImg {
+    width: 1200px;
+}
+
 .overlay1 {
     position: absolute;
     top: 50%;
@@ -10,5 +14,17 @@
     transform: translate(-50%, -50%);
     color: white;
     background-color: black;
-    width: 100%
+    width: 100vw;
+}
+
+@media screen and (max-width: 1200px) {
+    .backgroundImg {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .overlay1 {
+        font-size: 12px;
+    }
 }
