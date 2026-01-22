@@ -30,7 +30,7 @@ nav {
     .toggledMenu {
         display: flex;
         flex-direction: column;
-        align-items: end
+        align-items: end;
     }
 
     .notToggledMenu {
